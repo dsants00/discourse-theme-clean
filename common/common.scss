@@ -339,6 +339,18 @@ input:hover,
     border-radius: var(--d-button-border-radius);
     margin-left: 10px;
 }
+
+.nav-pills li a {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: .875em;
+    letter-spacing: .01em;
+    line-height: 1.25em;
+    color: var(--fg-low-contrast);
+    padding: 0 0;
+    position: relative;
+}
+
 .admin-controls .nav-pills>li button:not(.active):hover, 
 .nav-pills>li button:hover {
     color: var(--tertiary-800);
@@ -361,17 +373,6 @@ input:hover,
     .desktop-view #navigation-bar.nav-pills li a{
         width: 100%;
         justify-content: center;
-    }
-
-    .nav-pills li>a {
-        font-family: "Inter", sans-serif;
-        font-weight: 500;
-        font-size: .875em;
-        letter-spacing: .01em;
-        line-height: 1.25em;
-        color: var(--fg-low-contrast);
-        padding: 0 0;
-        position: relative;
     }
 }
 
