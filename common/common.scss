@@ -1,9 +1,9 @@
 :root{
     --btn-default-border: var(--primary-300);
     --btn-default-hover: var(--tertiary-800);
-    --d-button-border-radius: 20px;
+    --d-button-border-radius: 6px;
     --btn-box-shadow: 0 2px 0 rgba(0,0,0,.02);
-    --d-input-border-radius: 20px;
+    --d-input-border-radius: 6px;
     --ant-radius: 6px;
     --menu-box-shadow:  0 6px 16px 0 rgb(0 0 0 / 8%), 0 3px 6px -4px rgb(0 0 0 / 12%), 0 9px 28px 8px rgb(0 0 0 / 5%);
     --small-shadow: 0 3px 8px 0 rgb(0, 0, 0, 0.08);
@@ -14,8 +14,8 @@
 
 body {
     font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif;
-    //font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace;;
 }
+
 
 /* 全局 按钮 Global button */
 .docker-manager .btn, 
