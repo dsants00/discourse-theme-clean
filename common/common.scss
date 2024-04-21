@@ -571,21 +571,21 @@ nav.post-controls .actions > button.reply:last-child:hover * {
 /* header */
 .drop-down-mode .d-header-icons .active .icon {
     //border: 1px solid transparent;
-    border-radius: 100%;
+    //border-radius: 100%;
     background: rgba(var(--tertiary-rgb), 0.2);
 }
 .drop-down-mode .d-header-icons .active .icon > .d-icon {
-    color: var(--header_primary);
+    //color: var(--header_primary);
 }
 .drop-down-mode .d-header-icons .active .icon:after {
     display: none;
 }
 .discourse-no-touch .drop-down-mode .d-header-icons .active .icon:hover {
-    background: rgba(var(--tertiary-rgb), 0.2);
+    //background: rgba(var(--tertiary-rgb), 0.2);
 }
 .discourse-no-touch .d-header-icons .icon:hover, .discourse-no-touch .d-header-icons .icon:focus {
-    border-radius: 100%;
-    background: transparent;
+    //border-radius: 100%;
+    //background: transparent;
 }
 
 @keyframes panel-drop-down {
@@ -620,11 +620,11 @@ nav.post-controls .actions > button.reply:last-child:hover * {
 }
 
 .d-header-icons .icon >.d-icon, .d-header-icons .icon >.d-icon {
-    color: var(--header_primary-very-high);
-    scale: 0.7;
+    //color: var(--header_primary-very-high);
+    //scale: 0.7;
 }
 .discourse-no-touch .d-header-icons .icon:hover>.d-icon, .discourse-no-touch .d-header-icons .icon:focus>.d-icon {
-    color: var(--header_primary);
+    //color: var(--header_primary);
 }
 
 .user-menu.revamped .tabs-list .btn {
@@ -638,7 +638,7 @@ nav.post-controls .actions > button.reply:last-child:hover * {
     border: none;
 }
 .d-header {
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+    //box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
 }
 .btn.btn-sidebar-toggle:active {
     border: none;
