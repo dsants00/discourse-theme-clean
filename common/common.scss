@@ -570,7 +570,7 @@ nav.post-controls .actions > button.reply:last-child:hover * {
 
 /* header */
 .drop-down-mode .d-header-icons .active .icon {
-    border: 1px solid transparent;
+    //border: 1px solid transparent;
     border-radius: 100%;
     background: rgba(var(--tertiary-rgb), 0.2);
 }
@@ -638,7 +638,7 @@ nav.post-controls .actions > button.reply:last-child:hover * {
     border: none;
 }
 .d-header {
-    //box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
 }
 .btn.btn-sidebar-toggle:active {
     border: none;
