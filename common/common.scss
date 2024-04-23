@@ -355,6 +355,20 @@ input:hover,
         width: 100%;
         order: -1;
     }
+    .navigation-container #navigation-bar {
+        display: flex;
+        grid-area: navigation;
+        grid-column: -1 / 1;
+        grid-row: 2;
+        margin: 0 0;
+    }
+    #navigation-bar {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-bottom: var(--nav-space);
+        margin-right: auto;
+    }
     .desktop-view #navigation-bar.nav-pills li{
         width: 100%;
     }
