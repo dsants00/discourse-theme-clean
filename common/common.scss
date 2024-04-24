@@ -3,7 +3,7 @@
     --btn-default-hover: var(--tertiary-800);
     --d-button-border-radius: 6px;
     --btn-box-shadow: 0 2px 0 rgba(0,0,0,.02);
-    --d-input-border-radius: 6px;
+    --d-input-border-radius: 20px;
     --ant-radius: 6px;
     --menu-box-shadow:  0 6px 16px 0 rgb(0 0 0 / 8%), 0 3px 6px -4px rgb(0 0 0 / 12%), 0 9px 28px 8px rgb(0 0 0 / 5%);
     --small-shadow: 0 3px 8px 0 rgb(0, 0, 0, 0.08);
@@ -294,8 +294,10 @@ input:hover,
 /* Navigation */
 
 .nav-pills {
-    box-shadow: 0 3px 0 var(--primary-50);
+    //box-shadow: 0 3px 0 var(--primary-50);
+    margin-right: .5em;
 }
+
 .nav-pills>li a, .nav-pills>li button {
     transition: all 0.3s;
 }
@@ -1173,4 +1175,6 @@ aside.onebox {
     width: 100%;
     --nav-space: 0.75em;
     display: flow;
+    margin-bottom: 25px;
+    font-size: 0.8706em;
   }
