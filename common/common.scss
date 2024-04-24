@@ -1168,3 +1168,9 @@ aside.onebox {
     background: var(--secondary) !important;
     color: var(--tertiary) !important;
 }
+
+.navigation-container {
+    width: 100%;
+    --nav-space: 0.75em;
+    //display: flex;
+  }
